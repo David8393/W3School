@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;list-style-type: none;
+}
+.mainnav{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background: #333;
+    position: fixed;
+    color: white;
+}
+.nav{
+    
+    float: left;
+    margin-left: 3px ;
+}
+li{
+    display: inline-block;
+    line-height: 7px;
+    margin: 20px;
+}
+a{
+    color: white;
+}
+#container{
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    width: 100%;
+    display: flex;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+    
+
+}
+.white{
+    color: white;
+}
+.red{
+    background: red;
+}
+.mainbox{
+    text-align: center;
+    padding-bottom: 90px;
+    font-weight:300;
+}
+.mainheader{
+    font-size: 4rem;
+    font-weight:550;
+    letter-spacing: -3px;
+}
+.header{
+    font-size: 2rem;
+    letter-spacing: -1px;
+
+}
+.mainparagraph{
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 170px;
+    padding-right:170px;
+}
+#container2{
+    background:#252529 ;
+    width: 100%;
+    display: flex;
+    height: 80rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    line-height: 1.5;
+}
+.mainbox2{
+    text-align: center;
+    /* padding-bottom: 90px; */
+    font-weight:300;
+}
+.mainheader2{
+    font-size: 4rem;
+    font-weight:550;
+    letter-spacing: -3px;
+}
+.header2{
+    font-size: 2rem;
+    letter-spacing: -1px;
+}
+.mainparagraph2{
+    font-size: 1.3rem;
+    /* text-align:center; */
+    padding-left: 160px;
+    padding-right:160px;
+}
+.paragraph{
+    font-size: 15px;
+}
+.btn{
+    width: 160px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius:12px;
+}
+.btn:hover{
+   opacity: 0.8;
+   background: red;
+}
+.bgimage{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 40px 0px;
+}
+#container3{
+    width: 100%;
+    display: flex;
+    height: 80rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    line-height: 1.5;
+}
+.mainbox3{
+    text-align: center;
+    /* padding-bottom: 90px; */
+    font-weight:300;
+}
+.mainheader3{
+    font-size: 2rem;
+    font-weight:550;
+    margin-top: 30px;
+}
+.btn{
+    width: 160px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius:12px;
+}
+.btn:hover{
+   opacity: 0.8;
+   background: red;
+}
+.bgimage2{
+    width: 100%;
+    /* display:grid ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.blue{
+    background: blue;
+}
+.mainparagraph3{
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 170px;
+    padding-right:170px;
+}
+#container4{
+    background-image: url(./image/section-bg.jpeg);
+    width: 100%;
+    display: flex;
+    height: 500px;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.mainbox4{
+    text-align: center;
+    padding-bottom: 90px;
+    font-weight:300;
+}
+.mainheader4{
+    font-size: 30px;
+    font-weight:550;
+    letter-spacing: -1px;
+}
+.mainparagraph{
+    font-size: 2.33rem;
+    text-align: center;
+    padding-left: 170px;
+    padding-right:170px;
+}
+#container5{
+    width: 100%;
+    display: flex;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    line-height: 1.5;
+}
+.mainbox5{
+    text-align: start;
+    /* padding-bottom: 90px; */
+    font-weight:300;
+}
+.mainheader3{
+    font-size: 2rem;
+    font-weight:550;
+    margin-top: 30px;
+}
+.bgimage3{
+    width: 650px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/cards.png);
+    float: left;
+}
+.mainparagraph5{
+    text-align: start;
+}
+.link{
+    color: blue;
+    display: flex;
+    text-align: start;
+    align-items: flex-start;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.link:hover{
+    background: chartreuse;
+    display: inline-block;
+}
+ footer .footer-cols { 
+    display: inline-grid;
+    grid-gap:90px;
+    grid-template-columns:  auto auto auto auto  auto auto   repeat(4, 1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .footer-cols ul {
+    list-style: none;
+  }
+
+  footer .footer-cols ul .li{
+    padding-bottom: 2rem;
+    border-bottom: #444 solid 2px;
+    margin-bottom: 1rem;
+  }
+  li{
+      line-height: 0px;
+  }
+  footer .footer-bottom {
+    background: #333;
+    padding: 2rem;
+  }
+
+.container6 {
+    width: 100%;
+    text-align: center;
+    background:#252529 ;
+  }
+
+.lead {
+    font-size: 2rem;
+}
+
+.text-center {
+    text-align: center;
+  } 
+
